@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/final-portfolio23/static/css/main.b7e6a909.css",
-    "main.js": "/final-portfolio23/static/js/main.7278943b.js",
-    "static/media/alexis.JPG": "/final-portfolio23/static/media/alexis.5a5c74a53cce6cea6075.JPG",
-    "static/media/Artboard 1.svg": "/final-portfolio23/static/media/Artboard 1.c99dfe129c74a510884f.svg",
-    "static/media/socialMedia.png": "/final-portfolio23/static/media/socialMedia.0b0ebad23fe3969c1a51.png",
-    "static/media/Dealerplate.ttf": "/final-portfolio23/static/media/Dealerplate.f5d8bee158fcbd10ca24.ttf",
-    "static/media/quiz.png": "/final-portfolio23/static/media/quiz.57018c609b59e0f866fe.png",
-    "static/media/portfolio.png": "/final-portfolio23/static/media/portfolio.7c86cf898dd49d20d182.png",
-    "static/media/Bolgota.ttf": "/final-portfolio23/static/media/Bolgota.1dcd0e2c8844dbaefda1.ttf",
-    "static/media/web sample.png": "/final-portfolio23/static/media/web sample.e69e63e403ee6804d713.png",
-    "static/media/comdline.svg": "/final-portfolio23/static/media/comdline.998e684c01264c38bb6e9e18cd4fd1ba.svg",
-    "static/media/layer5.svg": "/final-portfolio23/static/media/layer5.bfa8b730e3a0b119d8fa.svg",
-    "static/media/layer2.svg": "/final-portfolio23/static/media/layer2.bc9355b34c5da868df68.svg",
-    "static/media/layer6.svg": "/final-portfolio23/static/media/layer6.5f38694e0eee734d3f76.svg",
-    "static/media/layer3.svg": "/final-portfolio23/static/media/layer3.53a442ffe039eb652359.svg",
-    "static/media/layer4.svg": "/final-portfolio23/static/media/layer4.e012d7b74b4a9bba955d.svg",
-    "index.html": "/final-portfolio23/index.html",
-    "static/media/bgShape2.svg": "/final-portfolio23/static/media/bgShape2.25d498d7e36684c5808d.svg",
-    "static/media/bgShape3.svg": "/final-portfolio23/static/media/bgShape3.341023486472241edd95.svg",
-    "main.b7e6a909.css.map": "/final-portfolio23/static/css/main.b7e6a909.css.map",
-    "main.7278943b.js.map": "/final-portfolio23/static/js/main.7278943b.js.map"
+    "main.css": "/final-portfolio24/static/css/main.666558bf.css",
+    "main.js": "/final-portfolio24/static/js/main.2888aec4.js",
+    "static/media/alexis.JPG": "/final-portfolio24/static/media/alexis.5a5c74a53cce6cea6075.JPG",
+    "static/media/Artboard 1.svg": "/final-portfolio24/static/media/Artboard 1.c99dfe129c74a510884f.svg",
+    "static/media/socialMedia.png": "/final-portfolio24/static/media/socialMedia.0b0ebad23fe3969c1a51.png",
+    "static/media/Dealerplate.ttf": "/final-portfolio24/static/media/Dealerplate.f5d8bee158fcbd10ca24.ttf",
+    "static/media/quiz.png": "/final-portfolio24/static/media/quiz.57018c609b59e0f866fe.png",
+    "static/media/portfolio.png": "/final-portfolio24/static/media/portfolio.7c86cf898dd49d20d182.png",
+    "static/media/Bolgota.ttf": "/final-portfolio24/static/media/Bolgota.1dcd0e2c8844dbaefda1.ttf",
+    "static/media/web sample.png": "/final-portfolio24/static/media/web sample.e69e63e403ee6804d713.png",
+    "static/media/comdline.svg": "/final-portfolio24/static/media/comdline.998e684c01264c38bb6e9e18cd4fd1ba.svg",
+    "static/media/layer5.svg": "/final-portfolio24/static/media/layer5.bfa8b730e3a0b119d8fa.svg",
+    "static/media/layer2.svg": "/final-portfolio24/static/media/layer2.bc9355b34c5da868df68.svg",
+    "static/media/layer6.svg": "/final-portfolio24/static/media/layer6.5f38694e0eee734d3f76.svg",
+    "static/media/layer3.svg": "/final-portfolio24/static/media/layer3.53a442ffe039eb652359.svg",
+    "static/media/layer4.svg": "/final-portfolio24/static/media/layer4.e012d7b74b4a9bba955d.svg",
+    "index.html": "/final-portfolio24/index.html",
+    "static/media/bgShape2.svg": "/final-portfolio24/static/media/bgShape2.25d498d7e36684c5808d.svg",
+    "static/media/bgShape3.svg": "/final-portfolio24/static/media/bgShape3.341023486472241edd95.svg",
+    "main.666558bf.css.map": "/final-portfolio24/static/css/main.666558bf.css.map",
+    "main.2888aec4.js.map": "/final-portfolio24/static/js/main.2888aec4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7e6a909.css",
-    "static/js/main.7278943b.js"
+    "static/css/main.666558bf.css",
+    "static/js/main.2888aec4.js"
   ]
 }

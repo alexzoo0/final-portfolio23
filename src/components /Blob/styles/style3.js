@@ -12,8 +12,8 @@ export default makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'center',
         opacity: '0.5',
-        width: '100%',
-        height: '100%',
+        width: '90%',
+        height: '90%',
       },
       '@media (max-width:600px)': {
         blob: {

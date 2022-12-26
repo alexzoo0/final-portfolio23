@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import {  Container, Grid } from '@material-ui/core';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
+import React from "react";
+import { useCopyToClipboard } from 'usehooks-ts';
 
+import { Container, Grid } from '@material-ui/core';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ShareIcon from '@mui/icons-material/Share';
@@ -12,8 +12,9 @@ import { IconButton } from '@mui/material';
 
 const HomeButtons = () => {
 
-  const [value, setValue] = useState('');
-  const [copied, setCopied] = useState(false);
+    const [value, copy] = useCopyToClipboard()
+    const copyLinks = 'www.alexoo0.com';
+
 
     function dropdown() {
         document.getElementById("myDropdown").classList.toggle("show");
@@ -31,6 +32,9 @@ const HomeButtons = () => {
           }
         }
       };
+
+    
+
     
 
     return (
@@ -56,11 +60,11 @@ const HomeButtons = () => {
                     <IconButton className='dropdown' target='_blank' onClick={dropdown} >
                         <ShareIcon className='link dropbtn' fontSize='large' />
                         <div id="myDropdown" className="dropdown-content">
-                        <input className='copy' type='text' value='wwww.alexoo0.com' onChange={({ target: { value } }) => setValue(value)} />
-                        <CopyToClipboard text={value} onCopy={() => setCopied(true)}>
-                        <a className="copyLink">Copy Link<LinkIcon className='icon'/>
-                        </a>
-                        </CopyToClipboard>
+                        <input className='copy' type='text' id='link' value='www.alexoo0.com'/>
+                        <button onClick={() => {
+                          copy(copyLinks)
+                        }} className="copyLink">Copy Link<LinkIcon className='icon'/>
+                        </button>
                         <a href="#about">Email<EmailIcon className='icon' /></a>
                         <a href="#contact">Message</a>
                         </div>

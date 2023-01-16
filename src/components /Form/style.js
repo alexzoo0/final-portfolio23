@@ -81,10 +81,12 @@ export default makeStyles((theme) => ({
             fontSize: '50px',
             fontFamily: 'bolgota',
             color: '#fff37e',
+            display: 'flex',
+            justifyContent: 'center',
         },
         group: {
             display: 'flex',
-            justifyContent: 'flex-start',
+            justifyContent: 'center',
             marginLeft: '0px',
             marginBottom: '200px',
         },

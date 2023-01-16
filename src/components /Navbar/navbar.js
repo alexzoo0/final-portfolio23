@@ -1,6 +1,7 @@
 import React from "react";
 import {  AppBar, Avatar, Button, Container } from '@material-ui/core';
 import useStyles from './style.js';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const classes = useStyles();
@@ -12,8 +13,8 @@ const Navbar = () => {
             <AppBar position='fixed' fullwidth style={{ backgroundColor: 'transparent', boxShadow: 'none'}}>
             <div className={classes.flex}>
                 <Avatar className={classes.avatar}>AV</Avatar>
-                <div className='navlogo'></div>
-                <Button className={classes.button}>Hire Me</Button>
+                <Link to='/'><div className='navlogo'></div></Link>
+                <Button href="#contact" className={classes.button}>Hire Me</Button>
             </div>
             </AppBar>
         </Container>

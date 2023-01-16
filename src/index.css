@@ -176,7 +176,7 @@ h3 {
   margin-right: 500px;
   display: flex;
   justify-content: flex-end;
-  margin-top: -1200px;
+  margin-top: -1000px;
 }
 
 .question2 {
@@ -204,7 +204,7 @@ h3 {
   padding: 16px;
   font-size: 16px;
   border: none;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 400px;
   z-index: 1;
   border-radius: 10px;
@@ -233,7 +233,7 @@ h3 {
   background-color: transparent;
   width: 360px;
   z-index: 1;
-  margin-top: -25px;
+  margin-top: -125px;
   color: white;
   background: rgba(4, 170, 109, 0.42);
   border-radius: 16px;
@@ -282,6 +282,14 @@ h3 {
 
 .copyLink:hover {
   background-color: #04AA6D;
+}
+
+.email:hover {
+  color: #04AA6D;
+}
+
+.message:hover {
+  color: #04AA6D;
 }
 
 /* name, title, statement and buttons ends here */
@@ -345,7 +353,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-top: -1400px;
+  margin-top: -1000px;
   margin-bottom: 900px;
   opacity: 0.6;
 }
@@ -373,6 +381,7 @@ h3 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 0px;
 }
 
 .cards {
@@ -401,7 +410,6 @@ h3 {
   justify-content: center;
   margin-top: 0px;
   margin-bottom: 400px;
-  
 }
 
 .webImg {
@@ -492,17 +500,18 @@ h3 {
 
   .layer5 {
     aspect-ratio: 160/415;
+    margin-bottom: -900px;
   }
 
   .layer6 {
     aspect-ratio: 90/100;
     margin-top: 0px;
-    margin-bottom: -1000px;
+    margin-bottom: 100px;
   }
 
   .layer7 {
-    margin-top: 1200px;
-    margin-bottom: -300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     background-size: 800px;
   }
   
@@ -514,35 +523,46 @@ h3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: -1200px;
+    margin-top: -1700px;
   }
 
   .dropbtn3 {
-    margin-top: 200px;
+    margin-top: 0px;
     margin-left: -200px;
-    margin-bottom: -100px;
+    margin-bottom: 100px;
   }
 
   .question {
-    margin-right: 500px;
+    margin-right: 50px;
     display: flex;
     justify-content: flex-end;
-    margin-top: -1200px;
+    margin-top: -1700px;
+    margin-bottom: 700px;
+  }
+
+  .question2 {
+    margin-left: 300px;
+    margin-top: -450px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .dropbtn2 {
-    margin-bottom: 300px;
+    margin-bottom: 400px;
+    margin-left: 150px;
+    margin-right: 0px;
   }
 
   .dropdown2 {
-    margin-right: -470px;
-    margin-top: 550px;
+    margin-right: 0px;
+    margin-top: 850px;
     padding: 20px 40px 20px 40px;
   }
   
   .dropdown3 {
-    margin-top: 2px;
-    margin-left: -470px;
+    margin-top: -198px;
+    margin-left: -200px;
     padding:  20px 40px 20px 40px;
   }
 
@@ -595,12 +615,12 @@ h3 {
     border-radius: 60%;
     position: absolute;
     margin-right: 0px;
-    margin-top: 70px;
+    margin-top: -20px;
   }
 
   .layer6con {
-    margin-top: -400px;
-    margin-bottom: 100px;
+    margin-top: 0px;
+    margin-bottom: 300px;
     display: flex;
     justify-content: center;
   }
@@ -624,7 +644,7 @@ h3 {
     justify-content: center;
     padding: 20px;
     margin-top: -720px;
-    margin-bottom: 0px;
+    margin-bottom: -300px;
   }
 
   .divImgBg {
@@ -634,18 +654,22 @@ h3 {
   .logo2div {
     display: flex;
     justify-content: center;
-    margin-top: -820px;
-    margin-bottom: 1000px;
+    margin-top: -900px;
+    margin-bottom: 900px;
     margin-right: 0px;
   }
 
   .logo2 {
     background-image: url('./shapes/Artboard\ 1.svg');
     background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 0px;
     z-index: 1;
+  }
+
+  .contact {
+    margin-top: -1000px;
   }
 
   .aboutmeIcons {
@@ -659,6 +683,30 @@ h3 {
 }
 
 @media only screen and (max-width: 800px) {
+  .layer6con {
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+
+  .layer6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  
+
+  .divImg {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 400px;
+  }
+
+  .aboutMe {
+    padding: 50px;
+    margin-bottom: -40px;
+  }
+
   .aboutmeIcons {
     display: none;
   }
@@ -709,10 +757,32 @@ h3 {
     margin-bottom: -40px;
   }
 
-  .layer7 {
-    margin-top: -1350px;
-    margin-bottom: 500px;
+  .dropbtn2 {
+    margin-top: 800px;
+    margin-bottom: 300px;
+    margin-right: -60px;
   }
+  
+  .dropbtn3 {
+    margin-top: 100px;
+    margin-bottom: 400px;
+    margin-left: -60px;
+  }
+
+  .question {
+    margin-right: 500px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+  }
+  
+  .question2 {
+    margin-top: 0px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: flex-start;
+  }
+ 
   
 }
 
@@ -725,6 +795,12 @@ h3 {
   .layer7 {
     margin-top: -1500px;
     margin-bottom: 900px;
+    aspect-ratio: 190/150;
+    background-image: url('./shapes/bgShape2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center;
+    opacity: 0.6;
   }
   .logo2div {
     display: flex;

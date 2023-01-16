@@ -12,14 +12,12 @@ export default makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'center',
         opacity: '0.5',
-        width: '90%',
-        height: '90%',
       },
       '@media (max-width:600px)': {
         blob: {
-          width: '400px',
-          height: '400px',
-          margin: '20px',
+          width: '600px',
+          height: '600px',
+          marginBottom: '-70px',
         },
         box: {
           marginTop: '-450px',

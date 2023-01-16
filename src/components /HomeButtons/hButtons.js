@@ -8,11 +8,12 @@ import ShareIcon from '@mui/icons-material/Share';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkIcon from '@mui/icons-material/Link';
+import SendIcon from '@mui/icons-material/Send';
 import { IconButton } from '@mui/material';
 
 const HomeButtons = () => {
 
-    const [value, copy] = useCopyToClipboard()
+    const [ copy ] = useCopyToClipboard()
     const copyLinks = 'www.alexoo0.com';
 
 
@@ -65,8 +66,8 @@ const HomeButtons = () => {
                           copy(copyLinks)
                         }} className="copyLink">Copy Link<LinkIcon className='icon'/>
                         </button>
-                        <a href="#about">Email<EmailIcon className='icon' /></a>
-                        <a href="#contact">Message</a>
+                        <a className="email" href="mailto:someonespecial@example.com?subject=Checkout Alexis's Portfolio&body=Name: Alexis Velasquez %0D%0A Portfolio: www.alexzoo0.com">Email<EmailIcon className='icon' /></a>
+                        <a className="message" href="#contact">Message <SendIcon className='icon'/></a>
                         </div>
                     </IconButton>
                 </div>

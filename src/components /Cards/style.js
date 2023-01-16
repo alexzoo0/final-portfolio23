@@ -1,8 +1,8 @@
 import { makeStyles } from '@material-ui/core/styles';
 import Image from '../../img/portfolio.png';
 import Image2 from '../../img/quiz.png';
-import Image3 from '../../shapes/comdline.svg';
-import Image4 from '../../shapes/socialMedia.png';
+import Image3 from '../../img/comdline.svg';
+import Image4 from '../../img/socialMedia.png';
 
 export default makeStyles((theme) => ({
 
@@ -11,7 +11,7 @@ typo: {
     fontFamily: 'Dealerplate',
     fontWeight: 'bold',
     fontSize: '30px',
-    letterSpacing: '2px'
+    letterSpacing: '2px',
   },
   
 cardButton: {

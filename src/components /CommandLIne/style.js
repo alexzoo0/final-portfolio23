@@ -9,7 +9,17 @@ export default makeStyles((theme) => ({
     },
     box: {
         margin: '100px',
-        marginTop: '0px',
+        marginTop: '-250px',
+        marginBottom: '-100px',
+        borderRadius: '20px',
+        padding: '40px',
+        color: 'black',
+        backgroundColor: '#E4584B',
+    },
+    box2: {
+        margin: '100px',
+        marginTop: '600px',
+        marginBottom: '-200px',
         borderRadius: '20px',
         padding: '40px',
         color: 'black',
@@ -26,9 +36,9 @@ export default makeStyles((theme) => ({
     },
     code: {
         marginTop: '400px',
-        marginBottom: '-500px',
-        marginRight: '50px',
-        marginLeft: '50px',
+        marginBottom: '-300px',
+        marginRight: '80px',
+        marginLeft: '80px',
         padding: '50px',
         borderRadius: '20px',
         backgroundColor: '#00252a',
@@ -36,9 +46,13 @@ export default makeStyles((theme) => ({
         justifyContent: 'center',
     },
     bg: {
-        padding: '20px',
+        padding: '80px',
         backgroundColor: '#00191b',
         borderRadius: '20px',
         color: 'white',
-    }
+    },
+    footer: {
+        marginTop: '1000px',
+        }
+    
 }))

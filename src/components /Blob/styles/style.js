@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles((theme) => ({
     blob: {
         padding: '50px',
+        marginTop: '300px',
       },
       
     box: {
@@ -20,7 +21,7 @@ export default makeStyles((theme) => ({
           width: '500px',
           height: '500px',
           marginLeft: '-300px',
-          marginTop: '600px',
+          marginTop: '700px',
         },
 
         box: {

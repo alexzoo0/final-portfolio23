@@ -10,6 +10,7 @@ import Card1 from '../Cards/Card.js';
 import Card2 from '../Cards/Card2.js';
 import Card3 from '../Cards/Card3.js';
 import Card4 from '../Cards/Card4.js';
+import Card5 from '../Cards/Card5.js';
 import Blob from '../Blob/blobs.js';
 import Blob2 from '../Blob/blobs2.js';
 import Blob3 from '../Blob/blobs3.js';
@@ -81,13 +82,16 @@ const Home = () => {
         <Card4 />
       </Grid>
       <Grid item md={4}>
-        <Card2 />
+        <Card5 />
       </Grid>
       <Grid item md={4}>
         <Card2 />
       </Grid>
       <Grid item md={4}>
         <Card1 />
+      </Grid>
+      <Grid item md={4}>
+        <Card2 />
       </Grid>
       <Grid item md={4}>
         <Card2 />

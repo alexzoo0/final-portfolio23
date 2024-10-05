@@ -7,12 +7,6 @@ import Home from './components /Home/Home.js';
 import CLine from './components /CommandLIne/cLine.js';
 
 
-
-
-
-
-
-
 const App = () => {
 
 

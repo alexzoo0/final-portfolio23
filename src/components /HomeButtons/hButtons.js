@@ -1,5 +1,4 @@
 import React from "react";
-import { useCopyToClipboard } from 'usehooks-ts';
 
 import { Container, Grid } from '@material-ui/core';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -13,26 +12,22 @@ import { IconButton } from '@mui/material';
 
 const HomeButtons = () => {
 
-    const [ copy ] = useCopyToClipboard()
-    const copyLinks = 'www.alexoo0.com';
+    
 
 
     function dropdown() {
         document.getElementById("myDropdown").classList.toggle("show");
       };
     
-      window.onclick = function(event) {
-        if (!event.target.matches('.dropdtn')) {
-          var dropdowns = document.getElementsByClassName("dropdown-content");
-          var i;
-          for (i = 0; 1 < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-              openDropdown.classList.remove('show');
-            }
-          }
-        }
-      };
+    function copyalexzo() {
+      var copyText = document.getElementById("link");
+
+      copyText.select();
+
+      navigator.clipboard.writeText(copyText.value);
+
+      alert("Copied the text:" + copyText.value);
+    }
 
     
 
@@ -62,9 +57,7 @@ const HomeButtons = () => {
                         <ShareIcon className='link dropbtn' fontSize='large' />
                         <div id="myDropdown" className="dropdown-content">
                         <input className='copy' type='text' id='link' value='www.alexoo0.com'/>
-                        <button onClick={() => {
-                          copy(copyLinks)
-                        }} className="copyLink">Copy Link<LinkIcon className='icon'/>
+                        <button onClick={copyalexzo} className="copyLink">Copy Link<LinkIcon className='icon'/>
                         </button>
                         <a className="email" href="mailto:someonespecial@example.com?subject=Checkout Alexis's Portfolio&body=Name: Alexis Velasquez %0D%0A Portfolio: www.alexzoo0.com">Email<EmailIcon className='icon' /></a>
                         <a className="message" href="#contact">Message <SendIcon className='icon'/></a>

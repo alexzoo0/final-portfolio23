@@ -14,7 +14,7 @@ const Footer = () => {
         <footer className={classes.footer}>
             <div className={classes.footerCon}>
             <p className={classes.footerin}>Alexisvelasquez15@gmail.com</p>
-            <p className={classes.footerin}>@ 2021 - 2023 alexzoo0 Web Design. All rights reserved.</p>
+            <p className={classes.footerin}>@ 2021 - 2024 alexzoo0 Web Design. All rights reserved.</p>
             </div>
             <div className={classes.buttonsF}>
                 <IconButton class='button' target="_blank" href='https://www.linkedin.com/in/alexis-velasquez-04670b218?trk=people-guest_people_se"arch-card' >

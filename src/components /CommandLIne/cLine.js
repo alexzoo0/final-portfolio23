@@ -22,7 +22,7 @@ const CLine = () => {
 
     const [ copy ] = useCopyToClipboard()
     const copyLinks = 'www.alexoo0.com';
-    const copyLinks2 = ''
+    
     const classes = useStyles();
 
 

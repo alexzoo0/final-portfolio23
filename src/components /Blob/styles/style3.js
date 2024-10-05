@@ -8,7 +8,7 @@ export default makeStyles((theme) => ({
       
     box: {
         marginTop: '-980px',
-        marginBottom: '200px',
+        marginLeft: '300px',
         display: 'flex',
         justifyContent: 'center',
         opacity: '0.5',

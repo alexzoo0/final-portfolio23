@@ -4,6 +4,8 @@ import Image2 from '../../img/quiz.png';
 import Image3 from '../../img/comdline.svg';
 import Image4 from '../../img/socialMedia.png';
 import Image5 from '../../img/automax.png';
+import Image6 from '../../img/pet.png';
+
 
 export default makeStyles((theme) => ({
 
@@ -56,6 +58,13 @@ media4: {
 media5: {
   height: '200px',
   backgroundImage: `url(${Image5})`,
+  backgroundSize: 'cover',
+  
+},
+
+media6: {
+  height: '200px',
+  backgroundImage: `url(${Image6})`,
   backgroundSize: 'cover',
   
 },

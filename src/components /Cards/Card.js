@@ -21,7 +21,7 @@ const Card1 = () => {
                 />
                 <CardContent>
                     <p className={classes.typo} variant='h5'>
-                        Portfolio Website AV
+                        Web development
                     </p>
                 </CardContent>
                 <CardActions >

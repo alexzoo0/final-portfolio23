@@ -4,7 +4,7 @@ import { Grid } from '@material-ui/core';
 import useStyles from './style.js';
 
 
-const Cards = () => {
+const Card2 = () => {
     const classes = useStyles()
 
     return(
@@ -17,7 +17,7 @@ const Cards = () => {
                 />
                 <CardContent>
                     <p className={classes.typo} variant='h5'>
-                        Multiple Choice Quiz
+                        Commandline prototypes
                     </p>
                 </CardContent>
                 <CardActions >
@@ -31,4 +31,4 @@ const Cards = () => {
 
 }
 
-export default Cards;
+export default Card2;

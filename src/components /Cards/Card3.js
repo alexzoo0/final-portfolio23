@@ -18,7 +18,7 @@ const Card3 = () => {
                 />
                 <CardContent>
                     <p className={classes.typo} variant='h5'>
-                        Commandline Projects
+                        graphoc design
                     </p>
                 </CardContent>
                 <CardActions >

@@ -18,7 +18,7 @@ const Card4 = () => {
                 />
                 <CardContent>
                     <p className={classes.typo} variant='h5'>
-                        social media project
+                        extras
                     </p>
                 </CardContent>
                 <CardActions >

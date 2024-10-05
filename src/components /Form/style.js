@@ -2,9 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
     group: {
-        display: 'flex',
-        justifyContent: 'flex-start',
-        marginLeft: '0px',
+        
     },
 
     form: {

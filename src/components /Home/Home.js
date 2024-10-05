@@ -6,17 +6,18 @@ import TerminalIcon from '@mui/icons-material/Terminal';
 
 
 import Navbar from '../Navbar/navbar.js';
-import Card1 from '../Cards/Card.js';
+import Card from '../Cards/Card.js';
 import Card2 from '../Cards/Card2.js';
 import Card3 from '../Cards/Card3.js';
 import Card4 from '../Cards/Card4.js';
-import Card5 from '../Cards/Card5.js';
-import Blob from '../Blob/blobs.js';
-import Blob2 from '../Blob/blobs2.js';
-import Blob3 from '../Blob/blobs3.js';
 import HomeButtons from '../HomeButtons/hButtons.js';
 import Form from '../Form/form.js';
 import Footer from '../Footer/footer.js';
+import Featured from '../Featured/Feature.js';
+import FTimeline from '../Timeline/Timeline.js';
+import ThreeD from '../3dDesign/3d.js';
+
+
 
 
 
@@ -27,50 +28,21 @@ import Footer from '../Footer/footer.js';
 
 const Home = () => {
 
+ 
+
 
   return (
 
   <Grid>
     <div> <Navbar /> </div>
     <div> <HomeButtons /> </div>
-    
-    <div class='question'>
-        <button class='dropbtn2'>Why Hire Me?</button>
-        <div class='dropdown2'>
-          <p>This particular project i worked on to get a better undertsanding on how to program one data and connect to two client sides a management and emplyee interfaces. The project is an employee clock in system for jobs which can be used in real life jobs just install this project from github and follow instructions.</p>
-        </div>
-    </div>
-    <div class='question2'>
-        <button class='dropbtn3'>What Can I Do?</button>
-        <div class='dropdown3'>
-          <p>This particular project i worked on to get a better undertsanding on how to program one data and connect to two client sides a management and emplyee interfaces. The project is an employee clock in system for jobs which can be used in real life jobs just install this project from github and follow instructions.</p>
-        </div>
-    </div>
-    <div className='layer7'>
-    <div className='blobGroup'>
-      <Blob />
-      <Blob2 />
-      <Blob3 />
-    </div>
-    </div>
-    <div className='featuredbg'>
-    <div className='featuredTitle'><p>Featured</p></div>
-    <div className='featuredList'>
-      <h3>Employee Clock In System</h3>
-      <p>This particular project i worked on to get a better undertsanding on how to program one data and connect to two client sides a management and emplyee interfaces. The project is an employee clock in system for jobs which can be used in real life jobs just install this project from github and follow instructions.</p>
-
-    </div>
-    </div>
-    <div className='productCard'>
-      <div className='bgShape'>
-        <div className='webImg'></div>
-      </div>
-    </div>
+    <div className='three'> <ThreeD /></div>
+    <Featured />
     <div className='layer3 spacer'>
     <Container className='cards'>
     <Grid className='grid' container spacing={7}>
       <Grid item md={4}>
-        <Card1 />
+        <Card />
       </Grid>
       <Grid item md={4}>
         <Card2 />
@@ -80,24 +52,6 @@ const Home = () => {
       </Grid>
       <Grid item md={4}>
         <Card4 />
-      </Grid>
-      <Grid item md={4}>
-        <Card5 />
-      </Grid>
-      <Grid item md={4}>
-        <Card2 />
-      </Grid>
-      <Grid item md={4}>
-        <Card1 />
-      </Grid>
-      <Grid item md={4}>
-        <Card2 />
-      </Grid>
-      <Grid item md={4}>
-        <Card2 />
-      </Grid>
-      <Grid item md={4}>
-        <Card2 />
       </Grid>
     </Grid>
     </Container>
@@ -115,6 +69,7 @@ const Home = () => {
       <div className='divImg'>
         <div className='alexis'></div>
       </div>
+      <div className='time'><FTimeline /></div>
       <div className='aboutmeIcons'>
         <SpeedIcon className='speedIcon' fontSize='large' style={{ 
           color: 'white'
@@ -127,12 +82,12 @@ const Home = () => {
           }} />
       </div>
       <div className='iconContent'>
-          <p>This particular project i worked on to get a better undertsanding on how to program one data and connect to two client sides a management and  emplyee interfaces. The project is an employee clock in system for jobs which can be used in real life jobs just install this project from github and follow instructions. This particular project i worked on to get a better undertsanding on how to program one data and connect to two client sides a management and emplyee interfaces. The project is an employee clock in system for jobs which can be used in real life jobs just install this project from github and follow instructions.</p>
-          <p>This particular project i worked on to get a better undertsanding on how to program one data and connect to two client sides a management and  emplyee interfaces. The project is an employee clock in system for jobs which can be used in real life jobs just install this project from github and follow instructions. This particular project i worked on to get a better undertsanding on how to program one data and connect to two client sides a management and emplyee interfaces. The project is an employee clock in system for jobs which can be used in real life jobs just install this project from github and follow instructions.</p>
+          <p>One of the characteristics I have is when I start a project I can’t stop thinking about my process, making it as efficient as possible to get from point A to point B. I use efficiency to get my projects done on time as well as time management. </p>
+          <p>One of the characteristics I have is when I start a project I can’t stop thinking about my process, making it as efficient as possible to get from point A to point B. I use efficiency to get my projects done on time as well as time management. </p>
           <p>This particular project i worked on to get a better undertsanding on how to program one data and connect to two client sides a management and  emplyee interfaces. The project is an employee clock in system for jobs which can be used in real life jobs just install this project from github and follow instructions. This particular project i worked on to get a better undertsanding on how to program one data and connect to two client sides a management and emplyee interfaces. The project is an employee clock in system for jobs which can be used in real life jobs just install this project from github and follow instructions.</p>
       </div>
     </div>
-    <div className='contact' id="contact"> <Form /> </div>
+    <div> <Form /> </div>
     <div className='logo2div'>
       <div className='logo2'></div>
     </div>

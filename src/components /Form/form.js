@@ -30,6 +30,7 @@ const Form = () => {
 
     return (
         <Container>
+            <div className={classes.group1}>
             <h1 className={classes.title}>Contact Form</h1>
             <div className={classes.group}>
                 <div className={classes.form}>
@@ -58,6 +59,7 @@ const Form = () => {
                         {result ? <Result /> : null}
                     </div>
                 </div>
+            </div>
             </div>
     </Container>
     )

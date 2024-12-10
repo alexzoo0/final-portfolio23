@@ -1,13 +1,8 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
-    group: {
-        
-    },
-
+    
     form: {
-        marginTop: '1200px',
-        marginBottom: '-400px',
         padding: '10px 20px 10px 40px',
         backgroundColor: '#E4584B',
         width: '420px',
@@ -60,8 +55,6 @@ export default makeStyles((theme) => ({
     },
 
     title: {
-        marginTop: '1250px',
-        marginBottom: '-1150px',
         fontSize: '50px',
         fontFamily: 'bolgota',
         color: '#fff37e',
@@ -72,28 +65,21 @@ export default makeStyles((theme) => ({
         color: '#00ffc8',
     },
 
-    '@media (max-width:600px)': {
-        title: {
-            marginTop: '1450px',
-            marginBottom: '-1150px',
-            fontSize: '50px',
-            fontFamily: 'bolgota',
-            color: '#fff37e',
-            display: 'flex',
-            justifyContent: 'center',
+    '@media (max-width:1196px)': {
+        form: {
+            padding: '10px 20px 10px 40px',
+            backgroundColor: '#E4584B',
+            width: '350px',
+            height: '500px',
+            borderRadius: '20px 140px 20px 20px',
         },
+
         group: {
             display: 'flex',
             justifyContent: 'center',
-            marginLeft: '0px',
-            marginBottom: '200px',
         },
-    },
 
-    '@media (min-width:600px)': {
         title: {
-            marginTop: '1250px',
-            marginBottom: '-1150px',
             fontSize: '50px',
             fontFamily: 'bolgota',
             color: '#fff37e',
@@ -101,24 +87,52 @@ export default makeStyles((theme) => ({
             display: 'flex',
             justifyContent: 'center',
         },
+
+        input: {
+            padding: '10px 100px 10px 10px',
+            marginTop: '5px',
+            borderRadius: '7px',
+            borderStyle: 'none',
+         },
+
+         area: {
+            marginTop: '5px',
+            padding: '20px 100px 90px 10px',
+            borderRadius: '10px',
+            borderStyle: 'none',
+        },
+        
+      },
+
+      '@media (max-width:520px)': {
+        form: {
+            padding: '10px 20px 10px 40px',
+            backgroundColor: '#E4584B',
+            width: '320px',
+            height: '500px',
+            borderRadius: '20px 140px 20px 20px',
+        },
+
         group: {
             display: 'flex',
             justifyContent: 'center',
-            marginLeft: '0px',
-            marginBottom: '200px',
         },
-    },
 
-    '@media (min-width:1200px)': {
-        title: {
-            justifyContent: 'flex-start',
-        },
-        group: {
-            display: 'flex',
-            justifyContent: 'flex-start',
-        },
-    },
+        input: {
+            padding: '10px 100px 10px 10px',
+            marginTop: '5px',
+            borderRadius: '7px',
+            borderStyle: 'none',
+         },
 
+         area: {
+            marginTop: '5px',
+            padding: '20px 100px 90px 10px',
+            borderRadius: '10px',
+            borderStyle: 'none',
+        },
+        
+      },
 /*  */
     
     

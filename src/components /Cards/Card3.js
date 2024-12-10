@@ -12,13 +12,13 @@ const Card3 = () => {
             <Card style={{ background: 'linear-gradient(transparent, #E4584B)', borderRadius: '20px', boxShadow: '5px 10px 30px #263238', marginTop: '100px', width: '300px'}} sx={{ maxWidth: 345 }}>
             <CardActionArea>
                 <CardMedia
-                className={classes.media3}
+                className={classes.media5}
                 height="200"
                 alt='Portfolio'
                 />
                 <CardContent>
                     <p className={classes.typo} variant='h5'>
-                        graphoc design
+                        graphic design
                     </p>
                 </CardContent>
                 <CardActions >

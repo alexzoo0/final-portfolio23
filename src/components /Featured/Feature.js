@@ -15,19 +15,19 @@ const Featured = () => {
                     <div className='featuredList'>
                         <div className='ftitle'>
                             <h3>MADNESS AUTOWORKS</h3>
-                            <p>I decided to take it a step further and decided to <br/>combine illustartion with imagery.<br/> <br/>The Process<br/>
+                            <p>I decided to take it a step further and <br/>decided to combine illustartion with <br/>imagery.<br/> <br/>The Process<br/>
                             - Research (competitors, clients)<br/>
                             - Target demographic (age, gender) <br/>
                             - Brand identity (logo, colors, typography) <br/>
                             - Color theory (grayscale, color scheme) <br/><br/>
 
-                            I start on my three sample sketches based on the process above. <br/><br/>
+                            I start on my three sample sketches <br/> based on the process above. <br/><br/>
 
                             The process: 2hrs <br/>
                             3 samples + mobile versions: 9hrs  </p>
                         </div>
                         <div className='flogo'>
-                        <img src={Mad} alt='fiat' width='500px' height='100px'/>
+                        <img src={Mad} alt='fiat'/>
                         </div>
                     </div>
                 </div>

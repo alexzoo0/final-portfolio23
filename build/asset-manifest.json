@@ -1,15 +1,29 @@
 {
   "files": {
-    "main.css": "/final-portfolio23/static/css/main.476b257e.css",
-    "main.js": "/final-portfolio23/static/js/main.e8f9dab7.js",
+    "main.css": "/final-portfolio23/static/css/main.f5e0e05e.css",
+    "main.js": "/final-portfolio23/static/js/main.cd8668ee.js",
+    "static/js/872.f47cb6dc.chunk.js": "/final-portfolio23/static/js/872.f47cb6dc.chunk.js",
+    "static/js/227.ec74453f.chunk.js": "/final-portfolio23/static/js/227.ec74453f.chunk.js",
+    "static/js/526.ce49754d.chunk.js": "/final-portfolio23/static/js/526.ce49754d.chunk.js",
+    "static/js/232.55693cba.chunk.js": "/final-portfolio23/static/js/232.55693cba.chunk.js",
+    "static/js/854.87f7c77a.chunk.js": "/final-portfolio23/static/js/854.87f7c77a.chunk.js",
+    "static/js/237.71bff431.chunk.js": "/final-portfolio23/static/js/237.71bff431.chunk.js",
+    "static/js/357.dce12c4a.chunk.js": "/final-portfolio23/static/js/357.dce12c4a.chunk.js",
+    "static/js/753.4da521ab.chunk.js": "/final-portfolio23/static/js/753.4da521ab.chunk.js",
+    "static/media/FIAT-SAMPLE-3.png": "/final-portfolio23/static/media/FIAT-SAMPLE-3.fe6b622d23e757c1dd2b.png",
+    "static/media/FIAT-SAMPLE-2.png": "/final-portfolio23/static/media/FIAT-SAMPLE-2.24314055489393ffe00a.png",
+    "static/media/automax.png": "/final-portfolio23/static/media/automax.80f686618664727b73be.png",
+    "static/media/FIAT-SAMPLE-1.png": "/final-portfolio23/static/media/FIAT-SAMPLE-1.bd7dfb700dad41ac944e.png",
+    "static/media/portfolio.png": "/final-portfolio23/static/media/portfolio.078ace1f9da26fc58124.png",
     "static/media/alexis.JPG": "/final-portfolio23/static/media/alexis.5a5c74a53cce6cea6075.JPG",
+    "static/media/FIAT-SAMPLE-3-MOBILE.png": "/final-portfolio23/static/media/FIAT-SAMPLE-3-MOBILE.e3b7e74ce287526a5160.png",
+    "static/media/pet.png": "/final-portfolio23/static/media/pet.d8731d46237d8c32b620.png",
     "static/media/Artboard 1.svg": "/final-portfolio23/static/media/Artboard 1.c99dfe129c74a510884f.svg",
     "static/media/socialMedia.png": "/final-portfolio23/static/media/socialMedia.0b0ebad23fe3969c1a51.png",
     "static/media/Dealerplate.ttf": "/final-portfolio23/static/media/Dealerplate.f5d8bee158fcbd10ca24.ttf",
     "static/media/quiz.png": "/final-portfolio23/static/media/quiz.57018c609b59e0f866fe.png",
-    "static/media/portfolio.png": "/final-portfolio23/static/media/portfolio.7c86cf898dd49d20d182.png",
     "static/media/Bolgota.ttf": "/final-portfolio23/static/media/Bolgota.1dcd0e2c8844dbaefda1.ttf",
-    "static/media/web sample.png": "/final-portfolio23/static/media/web sample.e69e63e403ee6804d713.png",
+    "static/media/madness-logo.png": "/final-portfolio23/static/media/madness-logo.335e2f8397e6d382f5c2.png",
     "static/media/comdline.svg": "/final-portfolio23/static/media/comdline.998e684c01264c38bb6e9e18cd4fd1ba.svg",
     "static/media/layer5.svg": "/final-portfolio23/static/media/layer5.bfa8b730e3a0b119d8fa.svg",
     "static/media/layer2.svg": "/final-portfolio23/static/media/layer2.bc9355b34c5da868df68.svg",
@@ -19,11 +33,19 @@
     "index.html": "/final-portfolio23/index.html",
     "static/media/bgShape2.svg": "/final-portfolio23/static/media/bgShape2.25d498d7e36684c5808d.svg",
     "static/media/bgShape3.svg": "/final-portfolio23/static/media/bgShape3.341023486472241edd95.svg",
-    "main.476b257e.css.map": "/final-portfolio23/static/css/main.476b257e.css.map",
-    "main.e8f9dab7.js.map": "/final-portfolio23/static/js/main.e8f9dab7.js.map"
+    "main.f5e0e05e.css.map": "/final-portfolio23/static/css/main.f5e0e05e.css.map",
+    "main.cd8668ee.js.map": "/final-portfolio23/static/js/main.cd8668ee.js.map",
+    "872.f47cb6dc.chunk.js.map": "/final-portfolio23/static/js/872.f47cb6dc.chunk.js.map",
+    "227.ec74453f.chunk.js.map": "/final-portfolio23/static/js/227.ec74453f.chunk.js.map",
+    "526.ce49754d.chunk.js.map": "/final-portfolio23/static/js/526.ce49754d.chunk.js.map",
+    "232.55693cba.chunk.js.map": "/final-portfolio23/static/js/232.55693cba.chunk.js.map",
+    "854.87f7c77a.chunk.js.map": "/final-portfolio23/static/js/854.87f7c77a.chunk.js.map",
+    "237.71bff431.chunk.js.map": "/final-portfolio23/static/js/237.71bff431.chunk.js.map",
+    "357.dce12c4a.chunk.js.map": "/final-portfolio23/static/js/357.dce12c4a.chunk.js.map",
+    "753.4da521ab.chunk.js.map": "/final-portfolio23/static/js/753.4da521ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.476b257e.css",
-    "static/js/main.e8f9dab7.js"
+    "static/css/main.f5e0e05e.css",
+    "static/js/main.cd8668ee.js"
   ]
 }

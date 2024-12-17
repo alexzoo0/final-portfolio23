@@ -37,6 +37,7 @@
   },
   "homepage": "https://alexzoo0.github.io/final-portfolio23",
   "scripts": {
+    "heroku-postbuild": "npm run build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
